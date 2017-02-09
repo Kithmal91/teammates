@@ -15,12 +15,14 @@ import com.google.appengine.api.blobstore.BlobstoreServiceFactory;
 
 public class ImageResult extends ActionResult {
 
+    /** The Google Cloud Storage blob key for the image. */
     public String blobKey;
     
     public ImageResult(String destination, String blobKey, AccountAttributes account,
             List<StatusMessage> status) {
         super(destination, account, status);
         this.blobKey = blobKey;
+        // a
     }
 
     @Override
