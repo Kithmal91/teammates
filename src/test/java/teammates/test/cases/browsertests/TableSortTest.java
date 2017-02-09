@@ -6,7 +6,8 @@ import org.testng.annotations.Test;
 
 import teammates.test.pageobjects.AppPage;
 
-/** Covers the table sorting functionality
+/**
+ * Covers the table sorting functionality.
  */
 public class TableSortTest extends BaseUiTestCase {
     private static AppPage page;
